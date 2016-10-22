@@ -1,0 +1,12 @@
+.field{
+	color:blue;
+	background-color:orange;
+}
+fieldset{
+	width:320px;
+	background-color:red;
+}
+fieldset legend{
+	font-weight:bold;
+	
+}

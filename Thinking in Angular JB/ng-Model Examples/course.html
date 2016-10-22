@@ -1,0 +1,29 @@
+<html ng-app="ngModelExample">
+    <head>
+        <title>ng-Model App</title>
+        <script src="angular.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body ng-controller="ExampleCntrl">
+        <h1>ng-Model App</h1>
+        <p>Please Enter your name:<input type="text" ng-model="name"></input></p>
+        <p>Contact:<input type="text" ng-model="number"></input></p>
+        <p>Date:<input type="date" ng-model="dateValue"></input></p>
+        <p>Courses:
+            <input type="radio" ng-model="course" value="Java">Java</input>
+            <input type="radio" ng-model="course" value="Angular">Angular Js</input>
+            <input type="radio" ng-model="course" value="GIT">GIT</input>
+            <input type="radio" ng-model="course" value="Devops">Devops</input>
+        </p>
+        <p>Confirm:<input type="checkbox" ng-model="confirmation" ng-change="confirmChange()"</input></p>
+        <p>Comments:<input type="text" ng-model="reviews"></input></p>
+        <div>
+            <p>Welcome Mr/Mrs.{{name}}</p>
+            <p>Course Registered: {{course}}</p>
+            <p>Date:{{dateValue}}</p>
+            <p ng-if="confirmation">Registration Successful</p>
+            <p>Reviews:{{reviews}}</p>
+        </div>
+    </body>
+</html>
+        

@@ -1,0 +1,17 @@
+.heading{
+	text-align:center;
+}
+caption{
+	color:red;
+	background-color:blue;
+}
+thead{
+	background-color:#ccddee;
+}
+tfoot{
+	background-color:#ddccee;
+	text-align:center;
+}
+tr:nth-child(2n){
+	background-color:grey;
+}

@@ -1,0 +1,6 @@
+ul{
+	color:green;
+	list-style-type:lower-greek;
+	list-style-position:outside;
+	line-height:200%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	Welcome-TMobile
+	</title>
+	<script>
+	
+	function validation(){
+	var userName=document.getElementById("name").value;
+	var number=document.getElementById("num").value;
+	var password=document.getElementById("password").value;
+	 if(!userName && !number){
+		alert("Enter either userName or mobile number to proceed");
+	return false;
+	}else{
+		if(!password){
+		alert("please enter your password to proceed");
+		return false;
+		}
+		else{
+		alert("Your details are passed to the controller");
+		} 
+	}
+	}
+	
+	</script>
+	</head>
+	<body>
+	<h1> Welocme To T-Mobile Login Page</h1>
+	UserName: <input type="text" id="name"  maxlength="15"/>
+	<br/>
+	OR
+	<br/>
+	MobileNumber: <input type="text" pattern="\d*" maxlength="10" id="num" >
+	</br>
+	Password: <input type="password"  id="password" required/>
+	<br/>
+	<input type="button" value="Submit" onclick="validation();"/>
+	
+	</body>
+	

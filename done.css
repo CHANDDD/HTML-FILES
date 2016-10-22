@@ -1,0 +1,18 @@
+.red{
+	color:red;
+	background-color:yellow;
+}
+h1{
+	border:8px ridge red;
+}
+
+.blue{
+	color=blue;
+	background-color:green;
+	
+}
+#no1{
+	color: yellow;
+	border: 5px dashed geen;
+	background-color:black;
+}

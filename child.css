@@ -1,0 +1,16 @@
+div p{
+	clor:blue;
+	background-color:yellow;
+}
+p{
+	color:orange;
+}
+h1{
+	color:black;
+	border:8px ridge blue;
+}
+.two p{
+	color:red;
+	font-size:36px;
+	background-color:blue;
+}

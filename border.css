@@ -1,0 +1,15 @@
+h2{
+	color:red;
+	background-color:yellow;
+	font-family:arial;
+	font-style:italic;
+	font-size:24px;
+	padding:40px;
+	border-style:dashed;
+	border-width:15px;
+	
+	border-color:blue;
+	margin-top:0px;
+	margin-bottom:20px;
+	
+}

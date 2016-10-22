@@ -1,0 +1,15 @@
+#parent p:first-child{
+	color:blue;
+	font-weight:bold;
+	text-decoration:underline;
+}
+#parent p:before{
+	content:"I am iterative";
+}
+#parent p:after{
+	content:"I am at the end";
+}
+#parent p:nth-child(odd){
+	color:blue;
+	background-color:grey;
+}

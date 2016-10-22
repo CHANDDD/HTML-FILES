@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="myModule">
+<head>
+<script src="Scripts/angular.min.js"></script>
+<script src="Scripts/script.js"></script>
+</head>
+<body>
+<div ng-controller="myController">
+<div>
+Emploee Detials <br>
+First Name:{{employee.firstname}}
+</div>
+<div>
+Last Name:{{employee.lastname}}
+</div>
+<div>
+Gender: {{employee.gender}}
+</div>
+<div>
+Date Of Birth: {{employee.dob}}
+</div>
+<div>
+<img ng-src="{{employee.image}}"
+		alt="{{employee.name + 'Image'}}"
+		style="height:100px;width:200px"/>
+</div>
+</div>
+
+</body>
+</html>

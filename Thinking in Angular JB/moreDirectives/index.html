@@ -1,0 +1,19 @@
+<html ng-app="moreDirectives">
+    <head>
+        <title>More Directives-Employee Details</title>
+        <script src="angular.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <h1>Employee Details</h1>
+        <div ng-controller="moreDirectivesCntrl as Cntrl">
+            <div ng-repeat="employee in Cntrl.myList">
+                <p>Employee {{$index + 1}}</p>
+                <p> First: {{$first}}</p>
+                <p>Name: {{employee.name}}</p>
+                <p> Age: {{employee.age}}</p>
+                <hr/>
+            </div>
+        </div>
+    </body>
+</html>

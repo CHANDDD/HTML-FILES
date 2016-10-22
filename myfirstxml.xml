@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="frstxml.css"?>
+<firstTag>
+This is our first xml
+<!-- this is commented -->
+</firstTag>

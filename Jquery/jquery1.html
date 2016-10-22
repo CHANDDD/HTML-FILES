@@ -1,0 +1,21 @@
+<html>
+<head>
+ <title></title>
+ <script src="jquery-1.12.3.js"> </script>
+ <script type="text/javascript">
+  $(document).ready(function () {
+	  $(this).on('click', function (e) {
+		  e.preventDefault();
+		  $('#divResult').append('link disabled<br/>') 
+		  });
+		  });
+</script>
+
+</head>
+
+<body style="font-family:Arial"> 
+<h3> Right click disabled on this page. Try to right click and see what happens </h3>
+<a id="link" href= "https://www.youtube.com/watch?v=Co7F8EwWr_U&index=41&list=PL6n9fhu94yhVDV697uvHpavA3K_eWGQap"> click here for jquery</a>
+ <div id="divResult"></div>
+</body>
+</html>

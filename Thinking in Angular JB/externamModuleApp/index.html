@@ -1,0 +1,16 @@
+<html ng-app="modulesApp">
+    <head>
+        <link rel="stylesheet" href="http://mbenford.github.io/ngTagsInput/css/ng-tags-input.min.css" />
+        <title>External Modules App</title>
+        <script src="angular.js"></script>
+        <script src="app.js"></script>
+        <script src="modules.js"></script>
+        <script src="http://mbenford.github.io/ngTagsInput/js/ng-tags-input.min.js"></script>
+    </head>
+    <body>
+        <h1>Tags-App</h1>
+        <div ng-controller="tagsDemoCntrl as Cntrl">
+             <tags-input ng-model="Cntrl.tags"></tags-input>           
+        </div>
+    </body>
+</html>   

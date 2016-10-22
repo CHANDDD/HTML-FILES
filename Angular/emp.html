@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="myModule">
+<head>
+<script src="Scripts/angular.min.js"></script>
+<script src="Scripts/emp.js"></script>
+</head>
+<body>
+<div ng-controller="myController">
+<table>
+<thead>
+<tr>
+<th>FirstName</th>
+<th>LastName</th>
+<th>Gender</th>
+<th>BirthDate</th>
+<th>Index</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="employee in employees">
+<td>{{employee.firstname}} with index {{$parent.$index}}</td>
+<td>{{employee.lastname}}</td>
+<td>{{employee.gender}}</td>
+<td>{{employee.dob}}</td>
+<td>{{$index}}</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</body>
+</html>

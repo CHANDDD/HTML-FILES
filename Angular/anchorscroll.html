@@ -1,0 +1,52 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myModule" >
+<head>
+<title></title>
+<meta charset="utf-8"/>
+<script src="Scripts/angular.min.js"></script>
+<script src="Scripts/anchorscroll.js"></script>
+
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body ng-controller="myController">
+<button id="top" ng-click="scrollTo('buttom')">Go to Buttom of the page</button>
+<br>
+<br>
+
+<div >
+The Figure 1 illustrates the MVP pattern with a simple calculator. 
+The domain model is realized in the Calculator class, which includes a data model and some model logic operations. 
+<br>
+The CalculatorViewImpl is a Vaadin implementation of the view, defined in the CalculatorView interface. 
+The CalculatorPresenter handles the user interface logic.
+User interaction events received in the view are translated into implementation-independent events for the presenter to handle 
+(the view implementation could also just call the presenter).<br>
+The Model-View-Presenter (MVP) pattern is one of the most common patterns in developing large applications with Vaadin.
+ It is similar to the older Model-View-Controller (MVC) pattern, which is not as meaningful in Vaadin development.<br>
+ <br>
+ 
+ Instead of an implementation-aware controller, there is an implementation-agnostic presenter that operates the view through an interface.
+ The view does not interact directly with the model.
+ This isolates the view implementation better than in MVC and allows easier unit testing of the presenter and model.
+ <br><br>
+ Over the years I have mentored many developers on using design patterns and best practices. One question that keeps coming up over and over again is: What are the differences between the Model View Controller (MVC) and Model View Presenter (MVP) patterns? Surprisingly the answer is more complex than what you would suspect. Part of reasons I think many developers shy away from using either pattern is the confusion over the differences.
+
+Before we dig into the differences let’s examine how the patterns work and the key benefits to using either one.
+ Both (MVC & MVP) patterns have been use for several years and address a key OO principal namely separation of concerns between the UI and the business layers.<br>
+ There are a number of frameworks is use today that based on these patterns including:
+ JAVA Struts, ROR, Microsoft Smart Client Software Factory (CAB), Microsoft Web Client Software Factory, and the recently announced ASP.Net MVC framework.
+ Over the years I have mentored many developers on using design patterns and best practices. One question that keeps coming up over and over again is: What are the differences between the Model View Controller (MVC) and Model View Presenter (MVP) patterns? Surprisingly the answer is more complex than what you would suspect. Part of reasons I think many developers shy away from using either pattern is the confusion over the differences.
+<br>
+Before we dig into the differences let’s examine how the patterns work and the key benefits to using either one.
+ Both (MVC & MVP) patterns have been use for several years and address a key OO principal namely 
+ separation of concerns between the UI and the business layers. There are a number of frameworks is use today that based on these patterns including:
+ JAVA Struts, ROR, Microsoft Smart Client Software Factory (CAB), Microsoft Web Client Software Factory, and the recently announced ASP.Net MVC framework.
+ 
+<br>
+</div>
+<br>
+<br>
+
+<button id="buttom" ng-click="scrollTo('top')">Go to Top of the page</button>
+</body>
+</html>

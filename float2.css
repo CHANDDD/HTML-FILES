@@ -1,0 +1,28 @@
+.d_one{
+	color:white;
+	background-color: orange;
+	width:200px;
+	height:400px;
+	text-align:center;
+	float:left;
+	margin:10px;
+}
+.d_two{
+	color:white;
+	background-color: blue;
+	width:200px;
+	height:400px;
+	text-align:center;
+	float:left;
+	margin:10px;
+	
+}
+.d_three{
+	color:white;
+	background-color: green;
+	width:200px;
+	height:400px;
+	text-align:center;
+	float:left;
+	margin:10px;
+}

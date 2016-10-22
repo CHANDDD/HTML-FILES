@@ -1,0 +1,9 @@
+.rounded_box{
+	background-color:#0299ef;
+	width:200px;
+	text-align:center;
+	padding:50px 0px;
+	border-top-left-radius:50px;
+	border-bottom-right-radius:30px;
+background-image:linear-gradient(to top,#04507b50%,#0072b4 20% #00a2ff 100%);	
+}
